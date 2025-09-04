@@ -11,14 +11,18 @@ Una aplicación móvil de cámara con filtros en tiempo real desarrollada con Re
 - 📱 **Interfaz moderna** con gradientes y animaciones
 - 🗑️ **Gestión de fotos** (eliminar individual o todas)
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **React Native** con Expo
 - **Expo Camera** para funcionalidad de cámara
 - **Expo Linear Gradient** para efectos visuales
 - **ESLint + Prettier** para calidad de código
 
-## 📦 Instalación
+## Guia de desarrollo
+
+A en el archivo [react_native_camera_guide](./docs/react_native_camera_guide.md) dentro de la carpeta `docs` encontrarás una guía de desarrollo para poder construir y entender esta Demo desde cero.
+
+## Instalación
 
 ### Prerrequisitos
 
@@ -69,7 +73,7 @@ Una aplicación móvil de cámara con filtros en tiempo real desarrollada con Re
 }
 ```
 
-## 🔧 Configuración de desarrollo
+## Configuración de desarrollo
 
 ### ESLint
 
@@ -113,7 +117,7 @@ npm run format
 npm run build
 ```
 
-## 🎨 Filtros disponibles
+## Filtros disponibles
 
 | Filtro         | Descripción   | Efecto                |
 | -------------- | ------------- | --------------------- |
@@ -122,14 +126,14 @@ npm run build
 | ❄️ **Frío**    | Tonos fríos   | Overlay azul suave    |
 | 📷 **Vintage** | Efecto retro  | Overlay sepia         |
 
-## 📱 Permisos requeridos
+## Permisos requeridos
 
 La aplicación requiere los siguientes permisos:
 
 - **Cámara**: Para tomar fotos
 - **Almacenamiento**: Para guardar fotos (automático con Expo)
 
-## 🏗️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 photomagic/
@@ -141,7 +145,7 @@ photomagic/
 └── assets/               # Recursos estáticos
 ```
 
-## 🚀 Características técnicas
+## Características técnicas
 
 ### Componentes principales
 
@@ -157,7 +161,7 @@ photomagic/
 - ✅ ScrollView horizontal para galería
 - ✅ Gestión eficiente de estado con hooks
 
-## 🐛 Solución de problemas
+## Solución de problemas
 
 ### Problemas comunes
 
